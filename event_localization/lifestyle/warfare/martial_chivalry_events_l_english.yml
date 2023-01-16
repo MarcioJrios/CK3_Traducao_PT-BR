@@ -46,7 +46,7 @@
 
  #Train with your signature weapon, by Linnéa Thimrén
  martial_chivalry.0010.t:0 "The Way of the [ROOT.Char.Custom('signature_weapon')|U]"
- martial_chivalry.0010.desc:0 "The endless clash of metal on metal, the chafing of armor, the sting of sweat... It is a dance that is as familiar as it is exhausting. To [ROOT.Char.Custom('SignatureWeaponAction')] my [ROOT.Char.Custom('signature_weapon')],  attack, dodge, defend, and repeat.\n\nMaybe it would do me good to practice my skills with another weapon."
+ martial_chivalry.0010.desc:0 "The endless clash of metal on metal, the chafing of armor, the sting of sweat... It is a dance that is as familiar as it is exhausting. To [ROOT.Char.Custom('SignatureWeaponAction')] my [ROOT.Char.Custom('signature_weapon')], attack, dodge, defend, and repeat.\n\nMaybe it would do me good to practice my skills with another weapon."
  martial_chivalry.0010.a:0 "Me and my trusted [ROOT.Char.Custom('signature_weapon')] will not part."
  martial_chivalry.0010.b:0 "Let's end the monotony, hand me another weapon!"
  martial_chivalry.0010.b.tt1:1 "You show them how it is done"
@@ -71,7 +71,7 @@
  martial_chivalry.1012.b.failure:1 "This place scares you"
 
  martial_chivalry.1021.t:0 "The Chaos of Battle"
- martial_chivalry.1021.desc:0 "A sword strikes across my chest plate, an elbow slams into my helmet, a soldiers easily avoids my clumsy counter... The mock battle rages around me, but I struggle to find my focus.\n\nI am tempted to let my guard down as soon as the fighting lulls, but I know the second assault is about to start."
+ martial_chivalry.1021.desc:1 "A sword strikes across my chest plate, an elbow slams into my helmet, a soldier easily avoids my clumsy counter... The mock battle rages around me, but I struggle to find my focus.\n\nI am tempted to let my guard down as soon as the fighting lulls, but I know the second assault is about to start."
  martial_chivalry.1021.a:0 "I will withdraw for a moment."
  martial_chivalry.1021.b:0 "Meet the assault head on!"
  martial_chivalry.1021.b.success:0 "My charge is awe-inspiring"
@@ -152,6 +152,23 @@
  martial_chivalry.3005.desc:0 "To my relief [my_liege.GetFirstName] approached me after the exercise to comfort me and encourage my efforts."
  martial_chivalry.3005.a:0 "[my_liege.GetSheHe|U] had the right to scold me, but didn't."
 
+ martial_chivalry.4000.t:0 "A Ride At Midnight"
+ martial_chivalry.4000.desc:0 "A servant's voice snatches me from my dreams.\n\n"Thieves! Raiders!" [ROOT.Char.GetSheHe] screams. "My [ROOT.Char.GetTitleAsNameNoTooltip], there's young warriors leading your herds into the darkness, driving them hard toward the lands of [raiders.GetTitledFirstName]!"\n\nRoused, my $knight_culture_player_plural_no_tooltip_lowercase$ tumble from their beds and dash to their saddles. I approach my horse, [ROOT.Char.Custom('signature_weapon')] in hand.\n\n The hour is late and there's a great distance to cover."
+ martial_chivalry.4000.sleepy:0 "\n\nMy thoughts drift back to soft, warm bed..."
+ martial_chivalry.4000.angry:0 "But the thieves must be stopped!"
+ martial_chivalry.4000.a:0 "Surrounded, the thieves will panic."
+ martial_chivalry_special.4000.a.tt:0 "You lead your riders in outrunning and encircling the rustlers."
+ martial_chivalry_special.4000.a.tt_success:0 "Your counterstrike works perfectly"
+ martial_chivalry_special.4000.a.tt_failure:0 "The thieves fight you off"
+ martial_chivalry_special.4000.a.tt_failure_2:0 "You or one of your $knight_culture_player_plural_no_tooltip$ is wounded"
+ martial_chivalry.4000.b:0 "I'll strike their insolent leader dead!"
+ martial_chivalry_special.4000.b.tt:0 "No one can out-ride or outfight [ROOT.Char.GetTitledFirstNameNoTooltip]!"
+ martial_chivalry_special.4000.b.tt_success:0 "You spill blood for your livestock"
+ martial_chivalry_special.4000.b.tt_failure:0 "The thieving boy humiliates you"
+ martial_chivalry_special.4000.b.tt_critical_failure:0 "You're knocked from your saddle... and trampled"
+ martial_chivalry_special.4000.b.tt_critical_failure_2:0 "You are seriously maimed"
+ martial_chivalry.4000.c:0 "My horse and I are of one mind: "Not tonight.""
+ martial_chivalry_special.4000.c.tt:0 "You'll catch #EMP some#! of these rustlers, sure. After you have a good night's sleep."
 
  #Mounted Warrior Practice, by Petter Vilberg
  martial_chivalry_special.1201.t:0 "[ROOT.Char.Custom('MountedWarriorAdjective')|U] Practice"
@@ -179,11 +196,13 @@
 
  #Train a warhorse, by Linnéa Thimrén
  martial_chivalry_special.1601.t:0 "Training a Warhorse"
- martial_chivalry_special.1601.desc:0 "As I inspect the stables my gaze is drawn to a [dummy_gender.Custom('HorseMareStallion')] kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps [dummy_gender.GetHerHis] hooves, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a warhorse before, but the stable-master insists that [dummy_gender.GetSheHe] is impossible to train."
+ martial_chivalry_special.1601.desc:1 "As I inspect the stables my gaze is drawn to a [dummy_gender.Custom('HorseMareStallion')] kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps [dummy_gender.GetHerHis] hooves, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a warhorse before, but the stablemaster insists that [dummy_gender.GetSheHe] is impossible to train."
  martial_chivalry_special.1601.a:0 "I am not one to back away from a challenge!"
  martial_chivalry_special.1601.b:0 "Such a fine steed will fetch a hefty price."
- martial_chivalry_special.1601.c:0 "My stable-master will learn a lot from taming [dummy_gender.GetHerHim]."
+ martial_chivalry_special.1601.c:1 "My stablemaster will learn a lot from taming [dummy_gender.GetHerHim]."
  martial_chivalry_special.1601.a.tt:1 "The horse might become your own steed"
+ martial_chivalry_special.1601.d:0 "Isn't [m_horse.GetTitledFirstName] the expert on horses?"
+ martial_chivalry_special.1601.d.tt:0 "Your $master_of_horse_court_position$ will try to tame the animal. If they are successful, the horse will become your own steed."
 
  martial_chivalry_special.1603.desc:1 "The horse pins [dummy_gender.GetHerHis] ears back as I approach, [dummy_gender.GetHerHis] disregard for me crystal clear. This first meeting is important to earn [dummy_gender.GetHerHis] trust and respect, and I need to decide how to go about it."
  martial_chivalry_special.1603.a:0 "A steady hand is required to tame this beast!"
@@ -198,4 +217,9 @@
  martial_chivalry_special.1604.a:1 "I will keep [dummy_gender.GetHerHim] as my personal warhorse!"
  martial_chivalry_special.1604.a_2:0 "This was rewarding! I'll do it again."
  martial_chivalry_special.1604.b:0 "At least I learned what #EMP not#! to do..."
+ martial_chivalry_special.1604.c:0 "My Liege will be happy."
+ martial_chivalry_special.1604.t:0 "Horse Tamed"
+ martial_chivalry_special.1604.succcess:0 "Your $master_of_horse_court_position$ has tamed your temperamental horse!"
+ martial_chivalry_special.1604.t.2:0 "Horse Untamed"
+ martial_chivalry_special.1604.failure:0 "Your $master_of_horse_court_position$ has failed at taming the horse."
  

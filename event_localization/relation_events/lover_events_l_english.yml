@@ -119,25 +119,25 @@
  lover.3003.desc_conclusion:0 "\n\nWhat... is this?"
  lover.3003.a:0 "That might be the worst poem I've ever heard!"
 
- lover.3004.desc:0 "My letter seems to have been poorly received. Let me have another look at it...\n\n[first_lover.Custom2('love_letter', lover )]"
+ lover.3004.desc:1 "My letter seems to have been poorly received. Let me have another look at it...\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
  lover.3004.a:0 "Is it really that bad?"
 
  lover.3005.desc_conclusion:0 "\n\nThat's... nice."
  lover.3005.a:0 "At least [first_lover.GetSheHe] is thinking of me."
 
- lover.3006.desc:0 "My letter seems to have been well received, even if it was described as a "simple attempt at poetry":\n\n[first_lover.Custom2('love_letter', lover )]"
+ lover.3006.desc:1 "My letter seems to have been well received, even if it was described as a "simple attempt at poetry":\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
  lover.3006.a:0 "Well, it's the thought that counts!"
 
  lover.3007.desc_conclusion:0 "\n\nA poem, just for me!"
  lover.3007.a:0 "Oh, how touching!"
 
- lover.3008.desc:0 "My letter was well received! [lover.GetTitledFirstName] seems to have recited it to several people.\n\n[first_lover.Custom2('love_letter', lover )]"
+ lover.3008.desc:1 "My letter was well received! [lover.GetTitledFirstName] seems to have recited it to several people.\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
  lover.3008.a:0 "My silver tongue gets the job done!"
 
  lover.3009.desc_conclusion:0 "\n\nIt's truly beautiful. And written entirely for me!"
  lover.3009.a:0 "I will carry these words in my heart!"
 
- lover.3010.desc:0 "[lover.GetTitledFirstName] responded to my letter, saying it was one of the most beautiful things [lover.GetSheHe] has ever heard! Looking back at it, I can't say I'm surprised:\n\n[first_lover.Custom2('love_letter', lover )]"
+ lover.3010.desc:1 "[lover.GetTitledFirstName] responded to my letter, saying it was one of the most beautiful things [lover.GetSheHe] has ever heard! Looking back at it, I can't say I'm surprised:\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
  lover.3010.a:0 "Perhaps I should have been a poet, rather than a [ROOT.Char.GetTitleAsNameNoTooltip]!"
 
  lover.3112.desc:0 ""I will never desire anyone but you, my [ROOT.Char.Custom('LoverPetName')]."\n\n[proposing_lover.GetTitledFirstName] holds me close, [proposing_lover.GetHerHis] breath against my neck, as [proposing_lover.GetSheHe] asks for a promise: to never take another lover but [proposing_lover.GetHerHim]."
@@ -438,3 +438,17 @@
  lover.7006.a:0 "I am intrigued by [proposing_family.GetHerHim] too!"
  lover.7006.a.tt:0 "#F But nothing will come off it... Just imagine the scandal!#!"
  lover.7006.b:0 "It is nothing besides [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('proposing_family') )]ly love, surely."
+
+ lover.8102.t:0 "$pilgrimage_header$ Consequences"
+ lover.8102.desc:0 ""Excuse me," A familiar-looking peasant appears before me. As I rack my brain for where I might've met [brothel_worker.GetHerHim] before, [brothel_worker.GetSheHe] answers as if reading my mind.\n\n"We met at a brothel in [brothel_location.GetName]. You paid for my services." A shade of pink spreads across [brothel_worker.GetHerHis] cheeks.\n"For us to be reunited... It has to be fate that"
+ lover.8102.desc.puppy_love:0 "I fell in love with you. Everything felt so right in your arms... Is there any room in your heart for someone like me?""
+ lover.8102.desc.they_pregnant:0 "I'm pregnant with your child. The tea must've not contained the proper herbs. I don't want to raise the child alone.""
+ lover.8102.desc.you_pregnant:0 "you might be pregnant. The tea didn't contain the proper herbs and potency. I don't want you to raise the child alone.""
+ lover.8102.desc.ending:0 "\n\n[brothel_worker.GetHerHis|U] voice trails off and [brothel_worker.GetSheHe] offers me a shy smile. Or perhaps that's a knowing smirk?"
+ lover.8102.a:0 "I will take full responsibility for my actions."
+ lover.8102.b:0 "You're just trying to set me up, aren't you!?"
+ lover.8102.c:0 "Forget that night, or no one will ever hear from you again."
+ lover.8102.c.success:0 "[brothel_worker.GetTitledFirstNameNoTooltip] is threatened into silence"
+ lover.8102.c.failure:0 "[brothel_worker.GetTitledFirstNameNoTooltip] agrees to silence for a price"
+ lover.8102.c.crit_failure:0 "[brothel_worker.GetTitledFirstNameNoTooltip] tells the world what you did"
+ lover.8102.d:0 "You can come with me, as long as you keep our past a secret."

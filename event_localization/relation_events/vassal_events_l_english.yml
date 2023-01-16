@@ -20,6 +20,7 @@
  vassal.1101.a.tt:0 "#F [religious_vassal.GetFirstNameNoTooltip] will remember the promise, and owe me a [favor|E] if it's fulfilled within ten years#!"
 
  vassal.1110.desc:0 ""You have outdone yourself this time, my [ROOT.Char.GetLadyLord]. It truly is a magnificent building." My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [religious_vassal.GetTitledFirstName], [religious_vassal.Custom('quirk_pos_present')] and gestures towards the newly constructed [religious_vassal.GetFaith.HouseOfWorship].\n\n"I am sure [religious_vassal.GetFaith.HighGodName] is as impressed as I am!""
+ vassal.1110.a:0 "I live to serve [religious_vassal.GetFaith.HighGodName]."
 
  vassal.1120.desc_religious:0 ""That a devout [ROOT.Char.GetWomanMan] like you would make empty promises... And about building a [religious_vassal.GetFaith.HouseOfWorship] to [religious_vassal.GetFaith.HighGodName] no less!""
  vassal.1120.desc_not_as_religious:0 ""My [ROOT.Char.GetLadyLord], you lied to me... And about building a [religious_vassal.GetFaith.HouseOfWorship] to [religious_vassal.GetFaith.HighGodName] no less!""
@@ -80,7 +81,7 @@
  vassal.2301.desc_intrigue:0 "especially in #EMP discreet#! matters."
  vassal.2301.desc_learning:0 "especially in academic matters."
  vassal.2301.desc_ending:1 "\n\n"There are some projects I would like to undertake in the [develop_county.GetName], my liege. With your blessing, of course.""
- vassal.2301.a:1 "Take the reigns, [skilled_vassal.GetFirstNameNoTooltip]!"
+ vassal.2301.a:2 "Take the reins, [skilled_vassal.GetFirstNameNoTooltip]!"
  vassal.2301.b_diplomacy:0 "No, #EMP you#! will defer to my diplomatic expertise instead."
  vassal.2301.b_martial:0 "Martial prowess? Hah! I'll make these modifications #EMP myself#!."
  vassal.2301.b_stewardship:0 "I can handle this administrative issue myself."
@@ -159,7 +160,7 @@
  vassal.3001.a:0 "Maybe [vassal_to_ask.GetFirstNameNoTooltip] can give me a few pointers!"
  vassal.3001.b:0 "This is a private matter."
 
- vassal.3002.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip], you have been blessed with multiple [ROOT.Char.Custom('ChildChildrenGender')], and I have not had similar luck. Do you have any advice on how to... remedy that?"\n\nI cannot believe it! My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('liege_with_trouble'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))], [liege_with_trouble.GetTitledFirstName], asking me for pointers in the bedchamber!"
+ vassal.3002.desc:1 ""[ROOT.Char.GetFirstNameNoTooltip], you have been blessed with multiple [ROOT.Char.Custom('ChildChildrenGender')], and I have not had similar luck. Do you have any advice on how to... remedy that?"\n\nI cannot believe it! My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('liege_with_trouble'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))], [liege_with_trouble.GetTitledFirstName], is asking me for pointers in the bedchamber!"
  vassal.3002.a:1 "How does dried pig testicles and wine sound?"
  vassal.3002.a.critical_success:0 "My advice has amazing results"
  vassal.3002.a.success:0 "My advice has good results"

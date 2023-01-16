@@ -134,9 +134,9 @@
 
  seduce_outcome.3010.desc:0 "[owner.GetTitledFirstName ] arrives at my chambers, evidently with two kinds of thirsts, and carrying plenty of wine for the first of them. It takes little effort to show that I am of the same mind as [owner.GetSheHe].\n\nThe first kiss seals the pact and then we spend the next day and night drinking, loving, drinking, loving..."
 
- seduce_outcome.3020.desc:0 "The privy is a small space, and the air reeks of foul things recently deposited. But it is private, oh so private...\n\nI gaze hungrily at [owner.GetTitledFirstName ], removing my garments. [owner.GetSheHe|U] does the same, and as we kiss a wave of lust rises to make us forget both the spatial discomfort and the dismal views and smells that surround us."
+ seduce_outcome.3020.desc:1 "The privy is a small space, and the air reeks of foul things recently deposited. But it is private, oh so private...\n\nI gaze hungrily at [owner.GetTitledFirstName], removing my garments. [owner.GetSheHe|U] does the same, and as we kiss a wave of lust rises to make us forget both the spatial discomfort and the dismal views and smells that surround us."
 
- seduce_outcome.3030.a.desc:0 "[owner.GetTitledFirstName ] arrives, bearing food — lots of it; he knows I like it. [owner.GetSheHe|U] waves [owner.GetHerHis] hand, and I pliantly take my garments off and lie down. [owner.GetSheHe|U] sets the scene, placing cheese, fruit, honey. On my body, beside me."
+ seduce_outcome.3030.a.desc:1 "[owner.GetTitledFirstName] arrives, bearing food — lots of it; he knows I like it. [owner.GetSheHe|U] waves [owner.GetHerHis] hand, and I pliantly take my garments off and lie down. [owner.GetSheHe|U] sets the scene, placing cheese, fruit, honey. On my body, beside me."
  seduce_outcome.3030.alcohol.desc:0 "Then, a rich libation of wine over my chest."
  seduce_outcome.3030.b.desc:0 "\n\nA kiss, a touch — we begin to enjoy, the both of us soon engulfed in pleasure. As the taste and smell of [owner.GetHerHis] body mixes with that of the food, I close my eyes and laugh — this is a sweet life!"
 
@@ -231,5 +231,7 @@
  seduce_outcome.8103.desc:0 ""You disgust me, [owner.GetFirstNameNoTooltip]. I am your [owner.Custom2('RelationToMe', SCOPE.sC('target') )] for [ROOT.Char.GetFaith.HighGodNamePossessive] sake! I will bring your grotesque perversions to light, trust my word!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
  seduce_outcome.8103.a:0 "You will do this to your own [target.Custom2('RelationToMe', SCOPE.sC('owner') )]?!"
 
-
- 
+ seduce_outcome.4100.desc:0 "While out on a walk, I spot [target.GetFirstName] beckoning to me at a distance. I give chase, and after catching [target.GetHerHim], we hide out of sight. We eagerly explore each other's bodies, and I'm swept away in a storm of fiery kisses and breathless sighs. Suddenly, [target.GetFirstNameNoTooltip] breaks our kiss by placing a finger on my lips.\n\n"It's been fun," [target.GetSheHe] says in a lighthearted voice as [target.GetSheHe] pulls away, "but I've grown tired of this game, it's time that "
+ seduce_outcome.4100.desc_married:0 "I resume the responsibility I have as [target_spouse.GetTitledFirstNamePossessive] [target_spouse.Custom2('RelationToMeShort', target)].""
+ seduce_outcome.4100.desc_fallback:0 "I focus on the goals I've set for myself.""
+ seduce_outcome.4100.a:0 ""Wait, this wasn't how it was supposed to go!""

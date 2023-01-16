@@ -78,7 +78,7 @@
 
 # Schism is mended, by Henrik Thyrwall & Flavio Verna
  roman_restoration.0100.t:0 "The Great Schism Mended"
- roman_restoration.0100.desc.intro:0 "At last the Great Schism between the Western Catholic Church and the Eastern Orthodox Church has been mended."
+ roman_restoration.0100.desc.intro:1 "At last the Great Schism has been mended."
  roman_restoration.0100.desc.orthodox:0 "\n\nNo longer will the arrogant Bishops in Rome claim undue primacy over their peers, ignoring or outright disobeying Canonical edicts. With the reunification of the Pentarchy under Orthodox Imperial rule, the Catholic faith now holds little sway over the people of Europe. \n\nIt is only a matter of time before the few who still cling to outdated and heretical rites are brought into the fold of the true Ecumenical Church."
  roman_restoration.0100.desc.catholic:0 "\n\nThe centuries-long fight of the Papacy to assert is primacy over the Pentarchy has finally come to an end. With the reunification of the original seats under Catholic rule, the Orthodox clergy has been forced to bow to the undeniable authority of the throne of Saint Peter. \n\nThe few amongst them who still cling to their outdated and heretical rites will soon be brought into the fold of the true Ecumenical Church, one way or the other."
  roman_restoration.0100.desc.generic:0 "\n\nWith the Pentarchy firmly under [mending_faith.GetAdjective] control, in an unexpected turn of events, both the Pope in Rome and the Patriarch of Constantinople are no longer able to deny the primacy of [mending_faith.GetName] over all other branches of Christianity."
@@ -206,3 +206,9 @@
  roman_restoration.0175.t:0 "The Greeks Strike Back"
  roman_restoration.0175.desc:0 "Scholars will long discuss what manner of foolishness drew [hre_emperor.GetTitledFirstName] to wage war against the true heirs of Rome. The pitiful attempt of this pretender to strip me of my divine right to rule Europe has only resulted in a predictable and humiliating defeat."
  roman_restoration.0175.a:0 "There was never any doubt about it."
+ ######## Byz emp reclaims Constantinople from you by Isabella Welch
+ roman_restoration.1204.t:0 "You wretched [ROOT.Char.Custom('GirlBoy'))],"
+ roman_restoration.1204.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP Constantinople#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Golden Horn shall be your drowning-pit — I will fling you into it myself, if I must."
+ roman_restoration.1204.a:0 "I was merely looking after it for you!"
+ roman_restoration.1204.b:0 "I hope your mithering rear gets splinters on the Throne."
+ 
